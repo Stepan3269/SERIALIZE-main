@@ -62,8 +62,8 @@ public class SerializerJSON implements Serializer{
     public static void main(String args[]) {
 
         Doctor doctor = new Doctor();
-        doctor.setFirstname("Vitaliy");
-        doctor.setLastname("Levytskiy");
+        doctor.setFirstname("Stepan");
+        doctor.setLastname("Tkach");
         doctor.setPosition("Doctor");
         doctor.setCabinetNumber(11);
         doctor.setDateOfBirth(LocalDate.of(2002, 10, 11));
