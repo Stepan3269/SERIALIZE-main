@@ -9,8 +9,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Patient patient1 = new Patient.Builder()
-                .setFirstname("Vitaly")
-                .setLastname("Levytsky")
+                .setFirstname("Stepan")
+                .setLastname("Tkach")
                 .setDateOfBirth(LocalDate.of(1997, 5, 18))
                 .setBloodType(-1)
                 .setMedicalCardNumber(11)
