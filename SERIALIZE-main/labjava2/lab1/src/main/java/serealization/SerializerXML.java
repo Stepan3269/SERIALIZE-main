@@ -76,8 +76,8 @@ public class SerializerXML implements Serializer{
         List<Doctor> doctors = new ArrayList<>();
         doctors.add(doctor);
         doctor = new Doctor();
-        doctor.setFirstname("Vitaliy");
-        doctor.setLastname("Levytskiy");
+        doctor.setFirstname("Stepan");
+        doctor.setLastname("Tkach");
         doctor.setPosition("Doctor");
         doctor.setCabinetNumber(11);
         doctor.setDateOfBirth(LocalDate.of(2002, 10, 11));
